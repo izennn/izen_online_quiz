@@ -157,5 +157,6 @@ CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:8000',
     'http://localhost:3000',
-    'https://izens-quiz.netlify.app'
+    'https://izens-quiz.netlify.app',
+    'https://izen-online-quiz.netlify.app'
 ]
