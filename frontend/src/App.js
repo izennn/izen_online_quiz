@@ -146,7 +146,7 @@ class App extends React.Component {
 				<Header 
 					as='h1' 
 					style={{textAlign: 'center'}}
-					content={chosenQuizId === undefined ? "Choose Quiz" : quizzes[chosenQuizId - 1].title}
+					content={chosenQuizId === undefined ? "Choose Quiz" : quizzes[chosenQuizId - 1]}
 				/>
 
 				<Dimmer active={isFetchingQuizzes} inverted>
